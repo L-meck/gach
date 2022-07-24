@@ -36,7 +36,7 @@ print('\n')
 
 # ////////////////////////////////////
 path2 = "C:\\Users\\kanai\\webAppsProjects\\gachie\\assets\\lab.csv"
-file2 = open(path2, newline='')
+file2 = open(path2, newline="")
 reader2 = csv.reader(file2)
 
 header2 = next(reader2)
@@ -65,11 +65,12 @@ for row in reader2:
     last_cooked = row[8]
     grams_per_day = row[9]
 
-    data.append([account , customer , tsr , street , 
+    data2.append([account , customer , tsr , street , 
         customer_phone , latest_voltage , gas_remaining , 
         last_task_date , last_cooked , grams_per_day])
 
-print(data2[0])
+print('STUFF WORKING.... \n')
+print(data2[2])
 
 
        
