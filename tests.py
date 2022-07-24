@@ -43,7 +43,7 @@ header2 = next(reader2)
 
 data2 = []
 for row in reader2:
-    # row = [Account , Customer , TSR , Street , Cell , Latest coltage , Latest gas remaining , Days since last task , 'Days since last cooked', 'Grams per day']
+    # row = [Account , Customer , TSR , Street , Cell , Latest voltage , Latest gas remaining , Days since last task , 'Days since last cooked', 'Grams per day']
     # account = int(row[0])
     # customer = row[1]
     # tsr = row[2]
@@ -70,7 +70,16 @@ for row in reader2:
         last_task_date , last_cooked , grams_per_day])
 
 print('STUFF WORKING.... \n')
-print(data2[2])
+print(data2)
 
 
-       
+
+
+# returns_path = "C:\\Users\\kanai\\webAppsProjects\\tsrOutputs"
+# file3 = open(returns_path, 'w')
+# writer = csv.writer(file)
+
+# writer.writerow(["Account", "TSR", "Latest voltage", "Latest gas remaining"])
+# for i in range(len(data2) - 1):
+#     todays_row = data2[i] 
+#     todays_row   
