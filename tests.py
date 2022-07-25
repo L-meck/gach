@@ -70,7 +70,9 @@ for row in reader2:
         last_task_date , last_cooked , grams_per_day])
 
 print('STUFF WORKING.... \n')
-print(data2)
+# print(data2)
+print(header)
+print(data2[27])
 
 
 
