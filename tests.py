@@ -54,6 +54,9 @@ for row in reader2:
     # last_task_date = int(row[7])
     # last_cooked = row[8]
     # grams_per_day = float(row[9])
+    
+    # FIXME: using variables for every row
+    #  
     account = row[0]
     customer = row[1]
     tsr = row[2]
